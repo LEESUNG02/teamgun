@@ -1,0 +1,20 @@
+[project]
+name = "teamgun"
+version = "0.1.0"
+description = "team project"
+authors = [
+    {name = "baamboo", email = "beom5236@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[project.scripts]
+teamgun-who = 'teamgun.who:my_team'
+
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
